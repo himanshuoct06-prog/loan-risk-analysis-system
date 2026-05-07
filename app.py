@@ -12,6 +12,45 @@ st.set_page_config(
 )
 
 # =========================================================
+# LOGIN SYSTEM
+# =========================================================
+
+USERNAME = "himanshu"
+PASSWORD = "admin123"
+
+if "logged_in" not in st.session_state:
+    st.session_state.logged_in = False
+
+if not st.session_state.logged_in:
+
+    st.title("🔐 Loan Risk System Login")
+
+    st.markdown("---")
+
+    username = st.text_input("👤 Username")
+
+    password = st.text_input(
+        "🔑 Password",
+        type="password"
+    )
+
+    if st.button("🚀 Login"):
+
+        if username == USERNAME and password == PASSWORD:
+
+            st.session_state.logged_in = True
+
+            st.success("✅ Login Successful")
+
+            st.rerun()
+
+        else:
+
+            st.error("❌ Invalid Username or Password")
+
+    st.stop()
+
+# =========================================================
 # CUSTOM CSS
 # =========================================================
 
@@ -57,6 +96,13 @@ h1, h2, h3 {
 
 /* Number Inputs */
 .stNumberInput input {
+    background-color: #1F2937 !important;
+    color: white !important;
+    border-radius: 10px !important;
+}
+
+/* Text Input */
+.stTextInput input {
     background-color: #1F2937 !important;
     color: white !important;
     border-radius: 10px !important;
