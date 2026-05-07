@@ -1,5 +1,9 @@
 # Loan Risk Analysis System
 
+# Login Credentials
+  Username : "himanshu"
+  Password : "admin123"
+
 Project Overview
 This project performs Loan Risk Analysis using SQL, Power BI, Python, and Machine Learning.
 
@@ -10,7 +14,7 @@ The application predicts customer loan risk categories based on financial parame
 - Delinquency Count
 - DPD Rate
 
-Technologies Used
+ Technologies Used
 - Python
 - Streamlit
 - NumPy
