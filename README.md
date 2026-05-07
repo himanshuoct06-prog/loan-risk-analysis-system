@@ -1,40 +1,21 @@
-# Loan Risk Analysis System
+# Bank Risk Prediction System
 
-# Login Credentials
-  Username : "himanshu"
-  Password : "loanrisk06"
+This project predicts risky bank customers before loan approval using Machine Learning and Streamlit.
 
-Project Overview
-This project performs Loan Risk Analysis using SQL, Power BI, Python, and Machine Learning.
+## Features
+- KPI Dashboard
+- Risk Prediction
+- Banking Analytics
+- Loan Recommendation
+- Login Authentication
 
-The application predicts customer loan risk categories based on financial parameters such as:
-- Credit Score
-- Monthly Income
-- Total Enquiries
-- Delinquency Count
-- DPD Rate
-
- Technologies Used
+## Technologies Used
 - Python
 - Streamlit
+- Pandas
 - NumPy
-- SQL Server
-- Power BI
-- Logistic Regression
+- Plotly
 
-Features
-- KPI Dashboard
-- Risk Prediction System
-- Customer Risk Classification
-- Business Insights
-- Interactive Web Application
-
-Risk Categories
-- Low Risk
-- Medium Risk
-- High Risk
-- Very High Risk
-
-Deployment
-Developed using Streamlit and deployed using Streamlit Community Cloud.
-
+## Login Credentials
+User ID: himanshu
+Password: loanrisk06
