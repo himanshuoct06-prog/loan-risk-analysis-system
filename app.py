@@ -16,7 +16,7 @@ st.set_page_config(
 # =========================================================
 
 USERNAME = "himanshu"
-PASSWORD = "admin123"
+PASSWORD = "loanrisk06"
 
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
