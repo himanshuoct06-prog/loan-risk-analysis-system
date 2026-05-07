@@ -2,7 +2,7 @@
 
 # Login Credentials
   Username : "himanshu"
-  Password : "admin123"
+  Password : "loanrisk06"
 
 Project Overview
 This project performs Loan Risk Analysis using SQL, Power BI, Python, and Machine Learning.
