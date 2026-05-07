@@ -1,6 +1,6 @@
 # Loan Risk Analysis System
 
-## Project Overview
+Project Overview
 This project performs Loan Risk Analysis using SQL, Power BI, Python, and Machine Learning.
 
 The application predicts customer loan risk categories based on financial parameters such as:
@@ -10,7 +10,7 @@ The application predicts customer loan risk categories based on financial parame
 - Delinquency Count
 - DPD Rate
 
-## Technologies Used
+Technologies Used
 - Python
 - Streamlit
 - NumPy
@@ -18,21 +18,19 @@ The application predicts customer loan risk categories based on financial parame
 - Power BI
 - Logistic Regression
 
-## Features
+Features
 - KPI Dashboard
 - Risk Prediction System
 - Customer Risk Classification
 - Business Insights
 - Interactive Web Application
 
-## Risk Categories
+Risk Categories
 - Low Risk
 - Medium Risk
 - High Risk
 - Very High Risk
 
-## Deployment
+Deployment
 Developed using Streamlit and deployed using Streamlit Community Cloud.
 
-## Author
-Priyanshu Srivastava
